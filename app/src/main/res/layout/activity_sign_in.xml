@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sign_In">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/back2"
+        android:scaleType="fitXY"
+        tools:ignore="ContentDescription" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign In Now"
+        android:textStyle="bold"
+        android:textSize="35sp"
+        android:textColor="#ffff"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="80dp"/>
+    <EditText
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:id="@+id/sin"
+        android:layout_marginTop="150dp"
+        android:layout_marginStart="40dp"
+        android:drawableLeft="@drawable/person"
+        android:background="@drawable/welbutton"
+        android:hint="Account"
+        tools:ignore="HardcodedText" />
+    <EditText
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:id="@+id/sin2"
+        android:layout_marginTop="220dp"
+        android:layout_marginStart="40dp"
+        android:drawableLeft="@drawable/mail"
+        android:background="@drawable/welbutton"
+        android:hint="Mail"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/butt1"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="150dp"
+        android:background="@drawable/welbutton"
+        android:text="Sign In"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't you have an Account?"
+        android:textColor="#ffff"
+        android:textSize="21sp"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="100dp"/>
+
+    <TextView
+        android:id="@+id/signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="60dp"
+        android:text="Sign Up From Here"
+        android:textColor="#ffff"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

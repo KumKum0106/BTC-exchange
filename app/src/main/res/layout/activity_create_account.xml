@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateAccount">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/back2"
+        android:scaleType="fitXY"
+        tools:ignore="ContentDescription" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Account"
+        android:textStyle="bold"
+        android:textSize="35sp"
+        android:textColor="#ffff"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="65dp"/>
+    <EditText
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:id="@+id/accbutton"
+        android:layout_marginTop="130dp"
+        android:layout_marginStart="40dp"
+        android:drawableLeft="@drawable/person"
+        android:background="@drawable/welbutton"
+        android:hint="Account"
+        tools:ignore="HardcodedText" />
+    <EditText
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:id="@+id/emailbutton"
+        android:layout_marginTop="200dp"
+        android:layout_marginStart="40dp"
+        android:drawableLeft="@drawable/mail"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/welbutton"
+        android:hint="Email"
+        tools:ignore="HardcodedText" />
+    <EditText
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:id="@+id/passbutton"
+        android:layout_marginTop="270dp"
+        android:inputType="textPassword"
+        android:layout_marginStart="40dp"
+        android:drawableLeft="@drawable/lock"
+        android:background="@drawable/welbutton"
+        android:drawableRight="@drawable/eye"
+        android:hint="password"
+        tools:ignore="HardcodedText" />
+    <EditText
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:id="@+id/repassbutton"
+        android:layout_marginTop="340dp"
+        android:layout_marginStart="40dp"
+        android:inputType="textPassword"
+        android:drawableLeft="@drawable/lock"
+        android:drawableRight="@drawable/eye"
+        android:background="@drawable/welbutton"
+        android:hint="Re-Type Password"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/sign"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="150dp"
+        android:background="@drawable/welbutton"
+        android:text="Sign Up"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already Have an Account?"
+        android:textColor="#ffff"
+        android:textSize="21sp"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="100dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/signin"
+        android:text="Sign In From Here"
+        android:textColor="#ffff"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="60dp"/>
+</RelativeLayout>
